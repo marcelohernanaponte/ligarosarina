@@ -1,9 +1,0 @@
-header{
-@include flex(row, space-around, center);
-padding: $small;
-border-bottom: 2px solid $secondaty;
-background-color: aqua;
-.header_img{
-    max-width: 120px;
-}
-}

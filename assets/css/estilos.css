@@ -13,6 +13,10 @@ body{
  ul li a:hover{
     background-color:rgba(34, 47, 62,0.7);
     }
+    .navbar-toggler-icon{
+        background-color: #576574;
+        color: #c8d6e5;
+    }
 h1{
    color:#c8d6e5;  
 }
@@ -30,6 +34,12 @@ h1{
         background:#576574;
     }
 .main-header{
+    background: url(../imagenes/img/fut2.jpg);
+    background-size: cover;
+    min-height: 500px;
+    width: 100%;
+} 
+#asociate{
     background: url(../imagenes/img/fut2.jpg);
     background-size: cover;
     min-height: 500px;
@@ -60,9 +70,18 @@ footer{
    background-color:rgba(34, 47, 62,0.7);
    color: #c8d6e5;
 }
-button{
-    background-color:#c8d6e5;
+
+.main-section{
+    background: url(../imagenes/img/fut2.jpg);
+    background-size: cover;
+    min-height: 500px;
+    width: 100%;
+} 
+.table{
+    background-color:rgba(255,255,255,0.2);
+    color: antiquewhite;
 }
-button:hover{
+th{
     background-color: rgba(34, 47, 62,0.7);
+    color: antiquewhite;
 }

@@ -3,25 +3,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio Bootstrap</title>
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
     <script src="../../bootstrap/js/jquery.slim.min.js"></script>
     <script src="../../bootstrap/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="./assets/fonts/css/brands.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/estilos.css">
-    
-</head>
+    <!-- Animate On Scroll & Fontawesome -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://kit.fontawesome.com/1f2efb6c54.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../css/indexmain.css">
+    <!-- TITULOS Y ICON -->
+    <title>FUTBOL ROSARINO</title>
+    <link rel="icon" type="image/x-icon" href="../imagenes/img/logololo.png">
+  </head>
 <body>
+    <header>
     <nav class="navbar navbar-expand-lg navbar">
         <div class="container">
         <a class="navbar-brand" href="./index.html">
-            <img src="../imagenes/img/logo.jpg" alt="LOGO" style width="30%">
+            <img src="../imagenes/img/logololo.png" alt="LOGO" style width="40%">
         </a>
         <h1>
-          <div id="demotext">LIGA ROSARINA DE FUTBOL</div>
+          <div id="demotext">SOCIOS-LRDF</div>
         </h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -30,58 +35,70 @@
               <a class="nav-link" href="../../index.html">Inicio<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Equipos</a>
+                <a class="nav-link" href="./Equipos.html">Equipos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="./socios.html">Socios</a>
+                <a class="nav-link" href="./Estadisticas.html">Estadisticas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Nosotros</a>
+                <a class="nav-link" href="./Shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../pages/socios.html">Socios</a>
             </li>
           </ul>
         </div>
         </div>
-      </nav>
-      <section class="bg-light py-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-9">
-              <h3>QUIERES ASOCIARTE?</h3>
-              <p>
-                Envianos tus datos y forma parte de la comunidad futbolera
-              </p>
-              <form action="">
-                <div class="input-group mb-3">
-                  <div class="input-group-prepend">
-                    <i class="fas fa-user input-group-text"></i>
-                  </div>
-                  <input type="text" class="form-control" placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1">
+    </nav>
+</header>
+      <section>
+        <div class="main-section">
+          <div class="background-overlay conainer text-white py-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-9">
+                  <h3>QUIERES ASOCIARTE?</h3>
+                  <p>
+                    Envianos tus datos y forma parte de la comunidad futbolera
+                  </p>
+                  <form action="">
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <i class="fas fa-user input-group-text"></i>
+                      </div>
+                      <input type="text" class="form-control" placeholder="Nombre" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <i class="fas fa-envelope input-group-text"></i>
+                      </div>
+                      <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="input-group mb-3">
+                      <div class="input-group-prepend">
+                        <i class="fas fa-pencil-alt input-group-text"></i>
+                      </div>
+                      <textarea name="" cols="30" rows="10" placeholder="Escribe tu mensaje" class="form-control"></textarea>
+                    </div>
+                    <button type="submit" class="btn-block">Enviar Solicitud</button>
+                  </form>
                 </div>
-                <div class="input-group mb-3">
-                  <div class="input-group-prepend">
-                    <i class="fas fa-envelope input-group-text"></i>
-                  </div>
-                  <input type="text" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+                <div class="col-lg-3 align-self-center">
+                  <img src="../imagenes/img/logololo.png" alt="logo">
                 </div>
-                <div class="input-group mb-3">
-                  <div class="input-group-prepend">
-                    <i class="fas fa-pencil-alt input-group-text"></i>
-                  </div>
-                  <textarea name="" cols="30" rows="10" placeholder="Escribe tu mensaje" class="form-control"></textarea>
-                </div>
-                <button type="submit" class="btn-block">Enviar Solicitud</button>
-              </form>
-            </div>
-            <div class="col-lg-3 align-self-center">
-              <img src="img/logo.png" alt="">
+              </div>
             </div>
           </div>
         </div>
       </section>
 </body>
 <footer>
-    <div class="container p-3 text-center">
-        <p>Copyright &copy;2022 </p>
-    </div>
+  <div class="container p-3 text-center">
+      <p>Copyright &copy;2022 </p>
+      <div data-aos="fade-right"></div>
+  <a href="https://www.facebook.com/search/top?q=liga%20rosario%20de%20la%20frontera"><i class="fa-brands fa-facebook-square btn-lg"></i></a>
+  <a href="https://www.instagram.com/ligarosarina/"><i class="fa-brands fa-instagram-square btn-lg"></i></a>    
+  <a href="https://www.youtube.com/results?search_query=liga+rosario+de+la+frontera"><i class="fa-brands fa-youtube btn-lg"></i>
+  </div></a>
 </footer>
 </html>

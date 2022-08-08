@@ -3,23 +3,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio Bootstrap</title>
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="../../bootstrap/css/bootstrap.min.css">
     <script src="../../bootstrap/js/jquery.slim.min.js"></script>
     <script src="../../bootstrap/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="../fonts/css/brands.min.css">
-    <link rel="stylesheet" href="../css/estilos.css">
-</head>
+    <!-- Animate On Scroll & Fontawesome -->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://kit.fontawesome.com/1f2efb6c54.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="../../css/indexmain.css">
+    <!-- TITULOS Y ICON -->
+    <title>FUTBOL ROSARINO</title>
+    <link rel="icon" type="image/x-icon" href="../imagenes/img/logololo.png">
+  </head>
 <body>
+    <header>
     <nav class="navbar navbar-expand-lg navbar">
         <div class="container">
         <a class="navbar-brand" href="./index.html">
-            <img src="../imagenes/img/logo.jpg" alt="LOGO" style width="30%">
+            <img src="../imagenes/img/logololo.png" alt="LOGO" style width="40%">
         </a>
         <h1>
           <div id="demotext">LIGA ROSARINA DE FUTBOL</div>
         </h1>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -28,22 +35,28 @@
               <a class="nav-link" href="../../index.html">Inicio<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Equipos</a>
+                <a class="nav-link" href="./Equipos.html">Equipos</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Socios</a>
+                <a class="nav-link" href="./Estadisticas.html">Estadisticas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Nosotros</a>
+                <a class="nav-link" href="./Shop.html">Shop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../pages/socios.html">Socios</a>
             </li>
           </ul>
         </div>
         </div>
     </nav>
-    <section class="container mt-3">
-      <h2 class="text-center">
-        <div id="demotexto">DIA DE LA INDEPENDENCIA ARGENTINA</div>
-    </h2>
+</header>
+<h2 class="text-center m-2">
+  <div id="demotexto">DIA DE LA INDEPENDENCIA ARGENTINA</div>
+</h2>
+<div class="row justify-content-center">
+  <div class="col-sm-6 justify-content-center">
+    <section>
       <div id="carouselFadeExampleIndicators" class="carousel slide carousel-fade" data-ride="carousel">
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
@@ -77,13 +90,16 @@
         </div>
       </div>
     </section>
+  </div>
+</div>
 </body>
 <footer>
-    <div class="container p-3 text-center">
-        <p>Copyright &copy;2022 </p>
-    <i class="fa-brands fa-facebook-square"></i>
-    <i class="fa-brands fa-instagram-square"></i>
-    <i class="fa-brands fa-youtube"></i>
-    </div>
+  <div class="container p-3 text-center">
+      <p>Copyright &copy;2022 </p>
+      <div data-aos="fade-right"></div>
+  <a href="https://www.facebook.com/search/top?q=liga%20rosario%20de%20la%20frontera"><i class="fa-brands fa-facebook-square btn-lg"></i></a>
+  <a href="https://www.instagram.com/ligarosarina/"><i class="fa-brands fa-instagram-square btn-lg"></i></a>    
+  <a href="https://www.youtube.com/results?search_query=liga+rosario+de+la+frontera"><i class="fa-brands fa-youtube btn-lg"></i>
+  </div></a>
 </footer>
 </html>
